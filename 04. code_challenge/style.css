@@ -1,0 +1,95 @@
+body {
+  height: 100vh;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+section {
+  background-color: #6bbcbe;
+  width: 60%;
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+@keyframes turnCircles {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(180deg);
+  }
+}
+
+#first_box {
+  display: flex;
+  width: 10%;
+  justify-content: space-between;
+  margin-bottom: 120px;
+  animation: turnCircles 1.2s ease-in-out infinite;
+}
+
+.mini_circle {
+  background-color: white;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+}
+#second_box {
+  display: flex;
+  justify-content: space-between;
+  width: 10%;
+}
+@keyframes strachBox {
+  0% {
+    transform: scaleY(1);
+  }
+  20% {
+    transform: scaleY(2);
+  }
+  40% {
+    transform: scaleY(1);
+  }
+  60% {
+    transform: scaleY(1);
+  }
+  80% {
+    transform: scaleY(1);
+  }
+  100% {
+    transform: scaleY(1);
+  }
+}
+.mini_box {
+  background-color: white;
+  width: 15px;
+  height: 70px;
+}
+
+#second_box div:first-child {
+  animation: strachBox 1.2s infinite ease-in-out;
+}
+#second_box div:nth-child(2) {
+  animation: strachBox 1.2s infinite ease-in-out;
+  animation-delay: 0.1s;
+}
+#second_box div:nth-child(3) {
+  animation: strachBox 1.2s infinite ease-in-out;
+  animation-delay: 0.2s;
+}
+#second_box div:nth-child(4) {
+  animation: strachBox 1.2s infinite ease-in-out;
+  animation-delay: 0.3s;
+}
+#second_box div:last-child {
+  animation: strachBox 1.2s infinite ease-in-out;
+  animation-delay: 0.4s;
+}
