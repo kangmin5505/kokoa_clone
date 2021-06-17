@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+
+body {
+  border: #00c6ad solid 5px;
+  width: 40%;
+  height: 150vh;
+  margin-left: 33%;
+  font-family: "Playfair Display", serif;
+}
+.header {
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+  margin-left: 15px;
+}
+.main-song {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.main-song__top {
+  display: flex;
+  margin-bottom: 30px;
+}
+.main-song__top__box {
+  width: 150px;
+  height: 120px;
+  border-radius: 7px;
+  margin-right: 20px;
+  margin-left: 10px;
+  border: black solid 1px;
+  background-color: #ffbd11;
+}
+.main-song__top__text > h1 {
+  margin-bottom: 2px;
+}
+.header__title {
+  margin-left: 30%;
+}
+
+.main-song__bottom {
+  display: flex;
+  justify-content: space-evenly;
+  height: 50px;
+}
+
+ul {
+  padding-left: 15px;
+}
+.playlist__row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+h3 {
+  margin-top: 5px;
+  margin-bottom: 1px;
+}
+.playlist__row__box {
+  width: 40px;
+  height: 40px;
+  border-radius: 7px;
+}
+.playlist__row__text {
+  margin-left: 10px;
+}
+
+span {
+  font-size: 12px;
+}
+.playlist__row:first-child .playlist__row__box {
+  background-color: #f85a2a;
+}
+.playlist__row:nth-child(2) .playlist__row__box {
+  background-color: #ff89bb;
+}
+.playlist__row:nth-child(3) .playlist__row__box {
+  background-color: #1947e5;
+}
+.playlist__row:nth-child(4) .playlist__row__box {
+  background-color: #00c6ad;
+}
