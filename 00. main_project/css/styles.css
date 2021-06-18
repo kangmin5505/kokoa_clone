@@ -1,13 +1,16 @@
-@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
 @import "reset.css";
 @import "varialbes.css";
 /* Components */
 @import "components/status-bar.css";
 @import "components/nav-bar.css";
+@import "components/screen-header.css";
+@import "components/user-component.css";
 /* screens */
 @import "screens/login.css";
+@import "screens/friends.css";
 
 body {
-  font-family: "Anton", sans-serif;
-  background-color: #e2e2e2;
+  font-family: "Open Sans", sans-serif;
+  color: #2e363e;
 }

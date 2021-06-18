@@ -16,10 +16,38 @@
         <span>06:00</span>
       </div>
       <div class="status-bar__column">
-        <span>999%</span>
+        <span>100%</span>
         <i class="fas fa-battery-full"></i>
         <i class="fas fa-bolt"></i>
       </div>
+    </div>
+
+    <header class="screen-header">
+      <h1 class="screen-header__title">Friends</h1>
+      <div class="screen-header__icons">
+        <span><i class="fas fa-search fa-lg"></i></span>
+        <span><i class="fas fa-music fa-lg"></i></span>
+        <span><i class="fas fa-cog fa-lg"></i></span>
+      </div>
+    </header>
+
+    <a id="friends-display-link">
+      <i class="fas fa-info-circle"></i> Friends' Names Display
+      <i class="fas fa-chevron-right fa-xs"></i>
+    </a>
+
+    <div class="user-component">
+      <div class="user-component__column">
+        <img
+          src="https://ca.slack-edge.com/T60TDKNJK-U024GVA5QMB-gdc297c714b4-512"
+          class="user-component__avatar"
+        />
+        <div class="user-component__text">
+          <h4 class="user-component__title">Kgoing</h4>
+          <h6 class="user-component-subtitle">this text whatever</h6>
+        </div>
+      </div>
+      <div class="user-component__column"></div>
     </div>
 
     <nav class="nav">
@@ -28,7 +56,10 @@
           <a class="nav__link" href="#"><i class="fas fa-user fa-2x"></i></a>
         </li>
         <li class="nav__btn">
-          <a class="nav__link" href="#"><i class="far fa-comment fa-2x"></i></a>
+          <a class="nav__link" href="#">
+            <span class="nav__notification">1</span>
+            <i class="far fa-comment fa-2x"></i>
+          </a>
         </li>
         <li class="nav__btn">
           <a class="nav__link" href="#"><i class="fas fa-search fa-2x"></i></a>

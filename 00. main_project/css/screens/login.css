@@ -26,8 +26,8 @@
   border: none;
   padding: 15px 0px;
   font-size: 18px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
   margin-bottom: 25px;
-  border-radius: 10px;
 }
 
 #login-form input:not([type="submit"]) {
@@ -40,13 +40,14 @@
 }
 
 #login-form input:focus {
-  border-color: var(--gray);
+  border-color: var(--yellow);
 }
 
 #login-form input[type="submit"] {
+  background-color: var(--yellow);
   cursor: pointer;
-  text-decoration: none;
   padding: 20px 0px;
+  border-radius: 5px;
 }
 
 #login-form a {
