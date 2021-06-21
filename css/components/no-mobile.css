@@ -1,0 +1,44 @@
+#no-mobile {
+  position: absolute;
+  z-index: 99;
+  height: 100vh;
+  background-color: var(--yellow);
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+  font-weight: 700;
+  top: 0;
+}
+
+.no-mobile__chat {
+  height: 600vh;
+  position: absolute;
+  z-index: 99;
+  background-color: var(--yellow);
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+  font-weight: 700;
+  top: 0;
+}
+
+.no-mobile__chat span {
+  position: fixed;
+  top: 50%;
+}
+
+@media screen and (max-width: 645px) {
+  #no-mobile {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 645px) {
+  .no-mobile__chat {
+    display: none;
+  }
+}
