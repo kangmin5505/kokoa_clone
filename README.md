@@ -1,6 +1,6 @@
 # kakaotalk clone coding
 ## 1. Preview
-<img src="https://user-images.githubusercontent.com/74703501/124389069-867d9080-dd20-11eb-90ca-b70fe907741d.gif" width="25%" height="25%" />
+<img src="https://user-images.githubusercontent.com/74703501/124389069-867d9080-dd20-11eb-90ca-b70fe907741d.gif" width="35%" height="35%" />
 
 ## 2. What I learned
 <h4>HTML</h4>
