@@ -23,6 +23,7 @@
   <li>media-query</li>
   => viewport와 같은 어떤 특성들에 따라 스타일을 만들 수 있는 방법
 </ul>
+
 ## 3. Link
 https://kangmin5505.github.io/kokoa_clone/
 
