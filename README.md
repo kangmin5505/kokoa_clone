@@ -3,12 +3,12 @@
 <img src="https://user-images.githubusercontent.com/74703501/124389069-867d9080-dd20-11eb-90ca-b70fe907741d.gif" width="35%" height="35%" />
 
 ## 2. What I learned
-<h4>HTML</h4>
+<h4>HTML5</h4>
 <ul>
   <li>semantic HTML</li>
   => HTML tag를 사용할 때, 의미가 담긴 tag를 사용함으로써 가독성을 높여줌
 </ul>
-<h4>CSS</h4>
+<h4>CSS3</h4>
 <ul>
   <li>BEM</li>
   => Blocks, Elements, Modifiers의 준말로 classname에 의미를 담아 짓는 것을 말함
