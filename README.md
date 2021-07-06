@@ -1,4 +1,5 @@
-# kakaotalk clone coding
+# kakaotalk clone coding(2021.06)
+강의 : <a href="https://nomadcoders.co/">Nomadcoders</a>
 ## 1. Preview
 <img src="https://user-images.githubusercontent.com/74703501/124389069-867d9080-dd20-11eb-90ca-b70fe907741d.gif" width="35%" height="35%" />
 
